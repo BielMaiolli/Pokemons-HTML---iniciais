@@ -1,0 +1,156 @@
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+   display: grid;
+   flex-wrap: wrap;
+   grid-template-columns: 2fr 2fr;
+   gap: 10px;
+   margin: 40px;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-top: 15px;
+    text-align: center;
+    color: aliceblue;  
+}
+
+header {
+    background-color: rgb(0, 231, 231);
+}
+
+header nav {
+    background-color: rgb(27, 31, 24);
+    color: aliceblue;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+    
+}
+
+header nav a {
+   text-decoration: none;
+   color: aliceblue;
+   font-weight: bold;
+}
+
+section, article {
+   background-color: white;
+   margin: 20px;
+   padding: 20px;
+   max-width: 150vh;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+#Iniciais img {
+   width: 80px;
+   height: 80px;
+}
+
+#Curiosidades ul {
+    padding: 20px;
+    list-style: "🔎";
+}
+
+#Curiosidades a {
+    text-decoration: none;
+    color: rgb(0, 202, 27);
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    gap: 20px;
+}
+
+#ListaIniciais ul{
+   list-style: none;
+   padding: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+#ListaIniciais img {
+    width: 150px;
+    height: 150px;
+}
+
+#ListaIniciais a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    transition: 400ms;
+    color: gold;
+}
+
+nav a:hover {
+    transition: 300ms;
+    color: orangered;
+}
+
+#Iniciais img:hover {
+    transition: 300ms;
+    scale: 1.1;
+}
+
+#ListaIniciais a img:hover{
+    transition: 300ms;
+    scale: 1.1; 
+} 
+
+#Curiosidades a:hover {
+    transition: 300ms;
+    opacity: 0.5;
+}
+
+.footerEmail {
+    color: chocolate;
+}
